@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="horizontal" >
+
+<TextView
+    android:layout_width="0px"
+    android:layout_weight="1"
+    android:layout_height="match_parent"
+    android:text="It's TextView in main Activity"
+    android:textColor="#000000"
+    android:background="#3399cc"/>
+<FrameLayout
+    android:id="@+id/myfragment"
+    android:layout_width="0px"
+    android:layout_weight="4"
+    android:layout_height="match_parent">
+</FrameLayout>
+
+</LinearLayout>
